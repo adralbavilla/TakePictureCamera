@@ -25,5 +25,13 @@
         android:id="@+id/btnCamera"
         android:background="@android:color/holo_red_dark"
         android:textColor="@android:color/white"
+        android:text="Open Cam"/>
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCamera2"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
         android:text="Open Camera"/>
 </LinearLayout>
