@@ -29,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intent,0);
                 Intent intent2 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
- Intent intent3 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent intent3 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent intent4 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent intent5 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent intent6 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent intent7 = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             }
         });
     }
